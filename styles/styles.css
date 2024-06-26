@@ -163,7 +163,7 @@
   background: url('../image/fon3-mob.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 100%;
   z-index: -1;
  }
 
