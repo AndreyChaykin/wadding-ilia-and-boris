@@ -160,7 +160,10 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background: url('../image/fon3-mob.jpg') no-repeat center/cover;
+  background: url('../image/fon3-mob.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   z-index: -1;
  }
 
