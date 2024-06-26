@@ -146,6 +146,13 @@
 }
 
 @media (max-width: 600px) {
+ .body {
+  background: none;
+  background-size: none;
+  background-position: none;
+  background-repeat: none;
+  background-attachment: none;
+ }
  .block {
   flex-direction: column;
  }
