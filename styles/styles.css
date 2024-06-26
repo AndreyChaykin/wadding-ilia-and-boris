@@ -1,0 +1,23 @@
+.container {
+ max-width: 1200px;
+ padding-inline: 20px;
+}
+
+.header__inner,
+.main__inner {
+ background-color: rgba(0, 0, 0, 0.471);
+ border-radius: 20px;
+ padding: 20px;
+ align-items: center;
+ text-align: center;
+}
+
+.header {
+ margin-block: 20px;
+}
+
+.main {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
