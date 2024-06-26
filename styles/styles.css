@@ -4,6 +4,10 @@
  margin-inline: auto;
 }
 
+.header__inner {
+ height: 94vh;
+}
+
 .header__inner,
 .main__inner {
  background-color: rgba(0, 0, 0, 0.471);
@@ -16,28 +20,19 @@
 
 @media (max-width: 768px) {
 
- body,
- html {
-  position: absolute;
-  width: 100%;
-  height: auto;
-  margin: 0px;
-  padding: 0px;
-  top: 0;
-  left: 0;
-  min-height: 100%;
- }
-
- .fixed-crossbrowser-background {
+ .fixed-background {
   position: fixed;
-  height: 100%;
-  width: 100%;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-image: url("../image/fon3-mob.jpg");
-  opacity: 1;
+  background: url('../image/fon3-mob.jpg') no-repeat center/cover;
   z-index: -1;
- }
+}
+
+.scrollable-content {
+  position: relative;
+  z-index: 1;
+}
+
 }
