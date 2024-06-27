@@ -164,7 +164,7 @@ body {
  box-shadow: 1px 1px 56px -4px rgba(34, 60, 80, 0.15);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
  .header__inner {
   justify-content: center;
   height: 95vh;
@@ -180,12 +180,9 @@ body {
 
  .fixed-background {
   position: fixed;
-  width: 100%;
-  height: 100%;
   background: url('../image/fon3-mob.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
   z-index: -1;
   opacity: 1;
  }
