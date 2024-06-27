@@ -234,12 +234,14 @@ body {
   z-index: 1;
  }
 
- .block__text-title {
+ .block__text-title,
+ .block__info-number {
   font-size: 37px;
  }
 
- .block__text-subtitle {
-  font-size: 30px;
+ .block__text-subtitle, 
+ .block__info-text{
+  font-size: 17px;
  }
 
  .swap {
