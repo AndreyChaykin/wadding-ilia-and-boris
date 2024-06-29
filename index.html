@@ -20,6 +20,12 @@
           data-aos-duration="1500"
         >
           <div class="header__inner">
+           <audio src="audio.mp3" id="player-audio"></audio>
+            <div class="player">
+             <div class="player__panel">
+              <button class="player-btn" id="player-btn">Плей</button>
+             </div>
+            </div>
             <h2 class="header__text-subtitle">Приглашение на свадьбу</h2>
             <h1 class="header__text-title">Борис и Юлия</h1>
             <h2 class="header__text-subtitle">06.09.2024</h2>
@@ -35,7 +41,7 @@
         >
           <div class="main__inner">
             <section class="block">
-              <img class="image" src="./image/2024-06-19 23.53.29.jpg" alt="" />
+              <img class="image" src="./image/2024-06-28 20.54.25.jpg" alt="" />
               <div class="block__text">
                 <h1 class="block__text-title">
                   Дорогие друзья, родные и близкие
@@ -83,7 +89,7 @@
             <section class="block">
               <div class="block__text">
                 <h1 class="block__text-title">Сбор гостей</h1>
-                <p class="block__text-subtitle">12:00-12:30</p>
+                <p class="block__text-subtitle">12:00</p>
                 <p class="block__text-subtitle">
                   ул. Советская д.47 <br />
                   Отдел ЗАГС по Тульской области г. Тула
@@ -91,8 +97,7 @@
               </div>
               <iframe
                 class="maps"
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3A2e29683cc0f861fd14f7335fbaf230fa43dcae112ac5065e3ec815cee38f78ce&amp;source=constructor"
-                width="340"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A2938e6296e6941a6438d0985a9c7d1a703e9491e4e37de142babb6c8105ea74d&amp;source=constructor"                 width="340"
                 height="340"
                 frameborder="0"
               ></iframe>
@@ -109,8 +114,7 @@
             <section class="block swap">
               <iframe
                 class="maps"
-                src="https://yandex.ru/map-widget/v1/?um=constructor%3A2e29683cc0f861fd14f7335fbaf230fa43dcae112ac5065e3ec815cee38f78ce&amp;source=constructor"
-                width="340"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A26434dfa44329aade6098ab13a1e8aab5ff26f69af0938de7009c7ab76bc7ba4&amp;source=constructor"                width="340"
                 height="340"
                 frameborder="0"
               ></iframe>
@@ -196,8 +200,16 @@
                   Пожалуйста, подтвердите свое присутствие
                 </h3>
               </div>
-              <form class="form" action="https://api.web3forms.com/submit" method="POST">
-               <input type="hidden" name="access_key" value="e8528c6d-6f2e-4417-8927-a6bec9f43454">
+              <form
+                class="form"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="e8528c6d-6f2e-4417-8927-a6bec9f43454"
+                />
                 <span class="form-text"
                   >Ваше имя и фамилия (если с парой или с семьей, укажите все
                   имена):</span
@@ -213,9 +225,9 @@
                 />
                 <span class="form-text">Подтвердите своё присутствие:</span>
                 <div class="confirmation">
-                  <div class="form-input-flex" >
+                  <div class="form-input-flex">
                     <input
-                    class="box"
+                      class="box"
                       type="radio"
                       name="confirmation"
                       id="Yes"
@@ -227,7 +239,7 @@
                   </div>
                   <div class="form-input-flex">
                     <input
-                    class="box"
+                      class="box"
                       type="radio"
                       name="confirmation"
                       id="No"
@@ -238,7 +250,12 @@
                     >
                   </div>
                 </div>
-                <input type="submit" value="Отправить" class="btn" name="send"> 
+                <input
+                  type="submit"
+                  value="Отправить"
+                  class="btn"
+                  name="send"
+                />
               </form>
             </section>
           </div>
